@@ -12,3 +12,5 @@ fs.writeFile("harry2.txt", "harry is not a bad boy", ()=>{
 });
 
 console.log(" the happy ending");
+console.log(" the happy ending");
+
