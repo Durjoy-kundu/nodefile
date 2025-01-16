@@ -8,9 +8,11 @@ console.log("starting");
 //fs.writeFileSync("harry.txt", "harry is a good boy");
 fs.writeFile("harry2.txt", "harry is not a bad boy", ()=>{
     console.log("done");
-    console.log("hoiye geche")
+    fs.readFile("harry2.txt",(error,data)=>{
+        console.log(error,data);
+    }
 });
 
 console.log(" the happy ending");
-console.log(" the happy ending");
+
 
